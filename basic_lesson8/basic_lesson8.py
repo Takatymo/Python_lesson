@@ -6,10 +6,6 @@ if __name__ == '__main__':
         list=[]
         for line in in_file:
             list.append(line.split('\t',2))
-        #for i,line in zip(range(20000),list):
-        #    print(str(i)+': '+line[0]+'\t'+'\t'+'\t'+line[1])
 
-        sorted(list, key=lambda x:x[1])
-
-        for line in list:
+        for line in sorted(list, key=lambda x:x[1]):
             out_file.write('\t'.join(line))
