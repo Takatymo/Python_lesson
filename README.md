@@ -3,7 +3,7 @@
 basic_lessonXフォルダ内のbasic_lessonX.pyです。  
 
 ## 開発環境　　
-version：3.4.3　　
+Python 3.4.3　　
   
 ##実行環境
 1. 全ての課題において、実行するためにスクリプトがあるフォルダの一つ上の階層の  
