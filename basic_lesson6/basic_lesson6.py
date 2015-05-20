@@ -6,7 +6,7 @@ if __name__ == '__main__':
     with open('../address.txt', encoding='utf-8') as in_file, open('outputfile.csv', 'w', encoding='utf-8') as out_file:
 
         """
-        input_number：末尾からの何行目か（コマンドラインから指定）
+        input_number：末尾から何行目か（コマンドラインから指定）
         p：p[i]はファイルの先頭からi行目の先頭までのバイト数
         """
         input_number = int(sys.argv[1])
