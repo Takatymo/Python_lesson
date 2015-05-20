@@ -5,9 +5,9 @@ if __name__ == '__main__':
             open('outputfile.txt', 'w', encoding='utf-8') as out_file:
         list=[]
         for line in in_file:
-            list.append(line.split('\t'))
+            list.append(line.split())
 
-        list.sort(key= lambda x:x[1])
+        sorted(list, key=lambda x:x[0])
 
         for line in list:
-            out_file.write(line[0]+'\t'+line[1])
+            out_file.write('\t'.join(line))
