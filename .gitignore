@@ -1,0 +1,3 @@
+*.txt
+!address.txt
+!col2.txt
