@@ -18,7 +18,7 @@ if __name__ == '__main__':
   # 初期値設定
   ####
   # APIアクセスキー
-  keyid="7e1482b944601e2fa3d2916c80f30072"
+  keyid=api_key
   # エンドポイントURL
   url= "http://api.gnavi.co.jp/ver1/RestSearchAPI/"
   # 検索ワード（コマンドライン引数）
